@@ -1,4 +1,3 @@
-/* not finish yet */
 <html>
 <head></head>
 <body>
@@ -26,12 +25,17 @@
 		<tr>
 			<td>Last Name</td>
 			<td>:</td>
-			<td><input type="text" name="fname" value="<?php echo $data['lastName'];?>"></td>
+			<td><input type="text" name="lname" value="<?php echo $data['lastName'];?>"></td>
 		</tr>
 		<tr>
 			<td>Email</td>
 			<td>:</td>
-			<td><input type="text" name="fname" value="<?php echo $data['email'];?>"></td>
+			<td><input type="text" name="email" value="<?php echo $data['email'];?>"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td><input type="submit" value="submit"></td>
 		</tr>
 	</table>
 </form>
