@@ -16,7 +16,6 @@ table, th, td {
 include 'my_connect.php';
 
 $sql ="SELECT * FROM employees";
-mysql_select_db('my_new');
 
 $retval = mysql_query($sql);
 if(!$retval){
